@@ -8,5 +8,5 @@ on:
 jobs:
   fred-was-here:
     name: 📦 Testing how to pass secrets to reusable workflow
-    uses: tylervangorder-8451/actions1/.github/workflows/enumerate-secrets.yml
+    uses: tylervangorder-8451/actions1/.github/workflows/enumerate-secrets.yml@main
     secrets: inherit
