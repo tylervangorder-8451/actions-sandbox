@@ -1,0 +1,12 @@
+name:  Fred
+
+# -----------------------------------------------------------------------------------
+# This is Fred, Fred is an action workflow
+
+on:
+  workflow_dispatch:
+jobs:
+  fred-was-here:
+    name: 📦 Testing how to pass secrets to reusable workflow
+    uses: tylervangorder-8451/actions1/.github/workflows/enumerate-secrets.yml@main
+    secrets: inherit
